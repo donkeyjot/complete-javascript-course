@@ -34,3 +34,16 @@
 // console.log(`hello, ${now}`);
 
 // false values: 0, "", undefined, null, NaN
+
+const day = "Wednsesday";
+
+switch (day) {
+  case "Wednesday":
+    console.log("That is today!");
+    break;
+  case "Thursday":
+    console.log("That is tomorrrow");
+    break;
+  default:
+    console.log("Invalid");
+}
