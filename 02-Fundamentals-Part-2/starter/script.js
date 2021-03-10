@@ -31,24 +31,25 @@
 // const age3 = calcAge3(1990);
 // console.log(age3);
 
-//add elements
-const friends = ["Michael", "Steven", "Peter"];
-const newLength = friends.push("Jay");
-console.log(friends);
-console.log(newLength);
+// //add elements
+// const friends = ["Michael", "Steven", "Peter"];
+// const newLength = friends.push("Jay");
+// console.log(friends);
+// console.log(newLength);
 
-friends.unshift("John");
-console.log(friends);
+// friends.unshift("John");
+// console.log(`I have many many friends: ${friends}`);
 
-//remove elements
-const popped = friends.pop();
-console.log(popped);
-console.log(friends);
+// // //remove elements
+// const popped = friends.pop();
+// console.log(popped);
+// console.log(friends);
 
-friends.shift();
-console.log(friends.indexOf("Peter"));
+// friends.shift();
+// console.log(driends);
+// console.log(friends.indexOf("Peter"));
 
-console.log(friends.includes("Peter"));
+// console.log(friends.includes("Peter"));
 
 const dinner = {
   dish: "big",
@@ -58,6 +59,13 @@ console.log(dinner);
 console.log(dinner.portions);
 console.log(dinner["por" + "tions"]);
 
+const toDisplay = prompt(`Tell me what to display`);
+
+if (console.log(dinner[toDisplay])) {
+  console.log(dinner[toDisplay]);
+} else {
+  console.log("does not exist, try again");
+}
 console.log(dinner.portions);
 console.log(dinner.portions);
 console.log(dinner.portions);
