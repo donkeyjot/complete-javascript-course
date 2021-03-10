@@ -57,3 +57,7 @@ const dinner = {
 console.log(dinner);
 console.log(dinner.portions);
 console.log(dinner["por" + "tions"]);
+
+console.log(dinner.portions);
+console.log(dinner.portions);
+console.log(dinner.portions);
